@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- **************** -->
+  <!-- css files -->
+  <!-- **************** -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/startupVibeAnimation.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/cairo-tech.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <!-- **************** -->
+  <!-- icon  -->
+  <!-- **************** -->
+  <link href="img/cairo Tech Logo.png" rel="icon">
+
+
+
+  <!-- **************** -->
+  <!-- font -->
+  <!-- **************** -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ************************* -->
+  <!-- top-header -->
+  <!-- ************************* -->
+  <div class="info d-none d-lg-block" data-anim="fade-down">
+    <div class="container-fluid">
+      <div class="address d-flex justify-content-between">
+        <div class="information d-flex gap-4">
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+012 345 6789</p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@example.com</p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-clock"></i>
+            <p>Mon - Fri : 09 AM - 09 PM</p>
+          </div>
+        </div>
+        <div class="social d-flex gap-4">
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************************* -->
+  <!-- navbar -->
+  <!-- ************************* -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-anim="fade-down">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/cairo Tech Logo.png" style="width: 50px;" alt=""></a>
+      <div class="translate">
+        <button id="lang_btn" class="lang_btn" style="border: none; background: none; color: #fff;">EN</button>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="n-home" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-about" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-projects" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-products" href="products.html">products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-contact" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ************************* -->
+  <!-- main-section -->
+  <!-- ************************* -->
+  <section class="main-section">
+    <div class="overlay align-content-center">
+      <div class="container ">
+        <div class="row w-100 d-flex align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="text" data-anim="fade-left">
+              <h1 id="h-title">Cairo Tech</h1>
+              <p id="h-desc">We provide integrated engineering solutions in lifting systems and industrial cranes, with
+                extensive experience delivering major governmental and private-sector projects. At Cairo Tech, we
+                guarantee premium quality, precise execution, and reliable technical support at every stage of your
+                project.</p>
+              <button id="h-btn" class="btn" onclick="scrollDown()">Explore More</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6" data-anim="fade-right">
+            <div class="eng-img d-flex justify-content-center">
+              <img class="w-50" src="img/engeneering.png" alt="eng">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ************************* -->
+  <!-- about us -->
+  <!-- ************************* -->
+  <section id="about" class="about my-5 py-5">
+    <div class="container">
+      <div class="row w-100">
+        <div class="col-12 col-lg-6" data-anim="fade-down">
+          <img class="w-75" src="img/about.png" alt="">
+        </div>
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <h1 class="mb-4 fw-bold" id="t-about">About Us</h1>
+            <p id="desc-abuot">Cairo Tech is a trusted name in the field of lifting cranes and heavy equipment
+              technology.
+              We specialize in providing complete
+              lifting solutions from design and installation
+              to maintenance and safety upgrades.
+              Our commitment is to deliver reliable performance and
+              long-term value for everyclient</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ************************* -->
+  <!--  Our Mission  -->
+  <!-- ************************* -->
+  <section class="mission py-5 my-5" data-anim="fade-up">
+    <div class="container">
+      <h1 class="head-section" id="t-mission">Our Mission</h1>
+      <p style="color: #bababa; font-size: 1.5rem;" id="desc-mission">To support industrial and construction sectors
+        with safe,
+        innovative,
+        and efficient
+        lifting systems that make operations easier and safer</p>
+    </div>
+  </section>
+
+  <!-- ************************* -->
+  <!--  Our Vision  -->
+  <!-- ************************* -->
+  <section class="vision py-5 my-5" data-anim="fade-up">
+    <div class="container">
+      <h1 class="head-section" id="t-vision">Our Vision</h1>
+      <p style="color: #bababa; font-size: 1.5rem;" id="desc-vision">To be a pioneer in lifting technologies across
+        Egypt and the Middle
+        East, setting
+        the standard for quality, safety, and customer satisfaction
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ************************* -->
+  <!-- services -->
+  <!-- ************************* -->
+
+  <section class="services">
+    <div class="overlay">
+      <div class="container">
+        <h1 class="head-section" id="t-services">Services</h1>
+        <div class="row w-100 d-flex justify-content-center align-items-center ">
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="box" data-anim="fade-up">
+              <div class="text">
+                <span class="number" id="num1">01</span>
+                <h3 id="serv-1">Design and installation of lifting cranes</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="box" data-anim="fade-up">
+              <div class="text">
+                <span class="number" id="num2">02</span>
+                <h3 id="serv-2">Heavy load handling systems</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="box" data-anim="fade-up">
+              <div class="text">
+                <span class="number" id="num3">03</span>
+                <h3 id="serv-3">Maintenance, inspection, and repair services</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="box" data-anim="fade-up">
+              <div class="text">
+                <span class="number" id="num4">04</span>
+                <h3 id="serv-4">Crane modernization and safety upgrades</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="box" data-anim="fade-up">
+              <div class="text">
+                <span class="number">05</span>
+                <h3 id="serv-5">Custom lifting solutions for all industries</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************* -->
+  <!-- Why Choose Us  -->
+  <!-- ************************* -->
+  <section class="choose">
+    <div class="container">
+      <h1 class="head-section" id="t-choose-us">Why Choose Us</h1>
+      <div class="row w-100">
+        <div class="col-12 col-lg-6" data-anim="fade-left">
+          <div class="row w-100">
+            <div class="col-12 col-lg-6">
+              <div class="card d-flex gap-3 flex-row w-100">
+                <i class="fa-solid fa-check"></i>
+                <div class="title">
+                  <h3 id="t-experience">Experience</h3>
+                  <p id="desc-experience">Years of expertise in lifting technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card d-flex gap-3 flex-row w-100">
+                <i class="fa-solid fa-check"></i>
+                <div class="title">
+                  <h3 id="t-quality">Quality</h3>
+                  <p id="desc-quality">We work with premium materials and trusted brands</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card d-flex gap-3 flex-row w-100">
+                <i class="fa-solid fa-check"></i>
+                <div class="title">
+                  <h3 id="t-safety-first">Safety First</h3>
+                  <p id="desc-safety-first">Every project follows strict safety standards</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card d-flex gap-3 flex-row w-100">
+                <i class="fa-solid fa-check"></i>
+                <div class="title">
+                  <h3 id="t-customer-focus">Customer Focus</h3>
+                  <p id="desc-customer-focus"> We listen, customize, and deliver beyond expectations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6" data-anim="fade-right">
+          <div class="vedio">
+            <video class="w-100" src="img/choose.mp4" autoplay muted loop></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ************************* -->
+  <!-- projects  -->
+  <!-- ************************* -->
+  <section class="projects my-5">
+    <div class="container">
+      <div class="head row w-100 d-flex justify-content-between align-items-center" data-anim="fade-up">
+        <h1 class="head-section" id="t-projects">Projects</h1>
+        <a href="projects.html" id="p-view-btn" class="btn">View All</a>
+      </div>
+      <div class="row w-100">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <h1 class=" mb-4 fw-bold" id="t-p-projects">Cranes at Al-Udaysat station, Luxor</h1>
+            <p id="desc-p-projects">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas similique quod,
+              ipsum quia sapiente in
+              ratione. Veritatis libero minus quisquam nam exercitationem ab ex, eius quidem perspiciatis repellendus
+              obcaecati! Rem!</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end" data-anim="fade-right">
+          <img class="" src="img/project-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <style>
+    hr {
+      color: rgb(207, 207, 207);
+    }
+  </style>
+  <hr>
+
+  <!-- ************************* -->
+  <!-- Products  -->
+  <!-- ************************* -->
+  <section class="projects my-5">
+    <div class="container">
+      <div class="head row w-100 d-flex justify-content-between align-items-center" data-anim="fade-up">
+        <h1 class="head-section" id="t-products">Products</h1>
+        <a href="products.html" id="p-view-btn2" class="btn">View All</a>
+      </div>
+      <div class="row w-100">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <p id="desc-products"> the module construction of a double-girder traveling crane with a lifting capacity of
+              3 to 100 tons, with
+              a span of 10.5 to 50 m.
+              Cranes are manufactured in a general-industry execution and also to operate in an explosive environment,
+              for transportation of toxic, explosion and flammable substances as well as molten metal.
+              They are used in indoor and outdoor storages, rail loading-unloading stations, on production sites.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end" data-anim="fade-right">
+          <img class="" src="img/1p.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************* -->
+  <!-- Footer  -->
+  <!-- ************************* -->
+
+  <section class="footer bg-white">
+    <div class="container start">
+      <div class="row w-100">
+        <div class="col-12 col-lg-4">
+          <div class="main">
+            <div class="logo">
+              <img class="" src="img/cairo Tech Logo.png" alt="">
+            </div>
+            <p id="footer-desc">We provide complete lifting and crane system solutions for industrial and governmental
+              projects. We are committed to quality, precision, and reliable after-sales support.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3 id="f-address">Address</h3>
+          <div class="information">
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="info-address">123 Street, New York, USA</p>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              <p>+012 345 6789</p>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3 id="f-quick-links">Quick Links</h3>
+          <div class="links">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="f-home" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-about" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-projects" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-products" href="products.html">products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-contact" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="end-footer">
+      <div class="container">
+        <p>© Cairo tech</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+
+
+
+  <!-- **************** -->
+  <!-- javascript files -->
+  <!-- **************** -->
+  <script src="js/index.js"></script>
+  <script src="js/startupVibeAnimation.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/loading.js"></script>
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/lang.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const videos = document.querySelectorAll("video");
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.play();
+          } else {
+            entry.target.pause();
+          }
+        });
+      }, { threshold: 0.5 });
+
+      videos.forEach(video => observer.observe(video));
+
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- **************** -->
+  <!-- css files -->
+  <!-- **************** -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/startupVibeAnimation.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/cairo-tech.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <!-- **************** -->
+  <!-- icon  -->
+  <!-- **************** -->
+  <link href="img/cairo Tech Logo.png" rel="icon">
+
+
+
+  <!-- **************** -->
+  <!-- font -->
+  <!-- **************** -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    .projects {
+      .row {
+        .text {
+          span {
+            background-color: var(--second-color);
+            padding: 0px 13px;
+            color: white;
+            border-radius: 10px;
+            font-size: 2rem;
+            display: block;
+            width: fit-content;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+    hr {
+      color: rgb(207, 207, 207);
+    }
+  </style>
+  <!-- ************************* -->
+  <!-- top-header -->
+  <!-- ************************* -->
+  <div class="info d-none d-lg-block" data-anim="fade-down">
+    <div class="container-fluid">
+      <div class="address d-flex justify-content-between">
+        <div class="information d-flex gap-4">
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+012 345 6789</p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@example.com</p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-clock"></i>
+            <p>Mon - Fri : 09 AM - 09 PM</p>
+          </div>
+        </div>
+        <div class="social d-flex gap-4">
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************************* -->
+  <!-- navbar -->
+  <!-- ************************* -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-anim="fade-down">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/cairo Tech Logo.png" style="width: 50px;" alt=""></a>
+      <div class="translate">
+        <button id="lang_btn" class="lang_btn" style="border: none; background: none; color: #fff;">EN</button>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" id="n-home" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-about" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-projects" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="n-products" href="products.html">products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="n-contact" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ************************* -->
+  <!-- main-section -->
+  <!-- ************************* -->
+  <section class="main-section" style="height: 50vh;">
+    <div class="overlay align-content-center">
+      <div class="container ">
+        <div class="row w-100 d-flex align-items-center">
+          <div class="col-12">
+            <div class="text text-center" data-anim="fade-up">
+              <h1 id="h-title-product">Products</h1>
+              <p style="font-size: 18px;" id="h-path-product">Home <span style="color: var(--second-color);">/</span>
+                Pages <span style="color: var(--second-color);">/</span> Products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ************************* -->
+  <!-- products  -->
+  <!-- ************************* -->
+  <section class="projects my-5">
+    <div class="container">
+      <div class="head row w-100 d-flex justify-content-between align-items-center" data-anim="fade-up">
+        <h1 class="head-section" id="section-products-title">Products</h1>
+      </div>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <span>01</span>
+            <p id="product-1-desc">
+              the module construction of a double-girder
+              traveling crane with a lifting capacity of 3 to 100 tons, with
+              a span of 10.5 to 50 m.
+              Cranes are manufactured in a general-industry execution
+              and also to operate in an explosive environment,
+              for transportation of toxic, explosion and flammable
+              substances as well as molten metal.
+              They are used in indoor and outdoor storages,
+              rail loading-unloading stations, on production sites.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-right">
+          <img class="" src="img/1p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <span>02</span>
+            <p id="product-2-desc">
+              Single-girder underslung crane with an electric hoist is load lifting equipment for conveying loads in the
+              space. The crane is controlled from the floor by a suspended control panel or wireless control
+              Cranes are manufactured in a general-industry execution and also to operate in an explosive environment,
+              for transportation of toxic, explosion and flammable substances as well as molten metal.
+              By negotiation between the manufacturer and the customer, it is possible to manufacture cranes with a span
+              of L k and lifting height of H, other than those specified.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-down">
+          <img class="" src="img/2p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <span>03</span>
+            <p id="product-3-desc">Cranes are manufactured in a general-industry execution and also to operate in an
+              explosive environment,
+              for transportation of toxic, explosion and flammable substances as well as molten metal.
+              The module construction of a single-girder traveling crane with a lifting capacity of 1 to 16 tons, with a
+              span of 4.5 to 25.5 m. </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-right">
+          <img class="" src="img/3p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <span>04</span>
+            <p id="product-4-desc">End Carriages , which are responsible for moving the crane along the longitudinal
+              path using motors
+              mounted on the wheels. They are also used in gantry cranes, suspended cranes, single and double cranes,
+              according to the required condition and based on international specifications and calculations.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-down">
+          <img class="" src="img/4p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <span>05</span>
+            <p id="product-5-desc">The driving wheels (wheel black) are another type of end carrige used specifically in
+              gantry cranes. They
+              consist of separate wheels with motors, connected by steel beams.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-right">
+          <img class="" src="img/5p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <span>06</span>
+            <p id="product-6-desc">The jib crane or pivot winch is used in fixed locations and does not move because it
+              is fixed to a
+              concrete base according to the winch load, where the loads start from 250 kg up to 5 tons, provided that
+              the rotation angle is manual or electric in different degrees from 180 degrees up to 360 degrees.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-down">
+          <img class="" src="img/6p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <span>07</span>
+            <p id="product-7-desc">The gantry crane is a giant crane used in outdoor or indoor warehouses. Its most
+              common use is in outdoor
+              with large loads, and it can be single or double girder.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-right">
+          <img class="" src="img/7p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <span>08</span>
+            <p id="product-8-desc">The monorail crane is a type of single-beam overhead crane, but it operates on a
+              single longitudinal or
+              transverse path, meaning it serves only one path in both directions. Sometimes it is circular or
+              semi-circular. This type is used in warehouses and chlorine rooms in water treatment plants.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-down">
+          <img class="" src="img/8p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-left">
+            <span>09</span>
+            <p id="product-9-desc"> Manual screens, which are divided into two types: basket screen and bar screen. They
+              are usually made of
+              stainless steel with all girds and are used at the inlets of sewage treatment plants to prevent sediment
+              and waste from entering the suction pumps, thus maintaining operation and ensuring the safety of the pump.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-right">
+          <img class="" src="img/9p.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row w-100 py-5">
+        <div class="col-12 col-lg-6 align-content-center">
+          <div class="text text-white" data-anim="fade-up">
+            <span>10</span>
+            <p id="product-10-desc">Treatment Plant Gates (penstocks): These are water retention gates made of stainless
+              steel with all
+              grids. They retain water and are used in maintenance work on canals, tanks, channels and sump tanks and
+              the operation is manual, electrical and pneumatic.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-end align-content-center" data-anim="fade-down">
+          <img class="" src="img/10p.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************* -->
+  <!-- Footer  -->
+  <!-- ************************* -->
+
+  <section class="footer bg-white">
+    <div class="container start">
+      <div class="row w-100">
+        <div class="col-12 col-lg-4">
+          <div class="main">
+            <div class="logo">
+              <img class="" src="img/cairo Tech Logo.png" alt="">
+            </div>
+            <p id="footer-desc">We provide complete lifting and crane system solutions for industrial and governmental
+              projects. We are committed to quality, precision, and reliable after-sales support.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3 id="f-address">Address</h3>
+          <div class="information">
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="info-address">123 Street, New York, USA</p>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              <p>+012 345 6789</p>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3 id="f-quick-links">Quick Links</h3>
+          <div class="links">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="f-home" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-about" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-projects" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-products" href="products.html">products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="f-contact" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="end-footer">
+      <div class="container">
+        <p>© Cairo tech</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- javascript files -->
+  <!-- **************** -->
+  <script src="js/index.js"></script>
+  <script src="js/startupVibeAnimation.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/loading.js"></script>
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/lang.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,138 @@
+:root {
+  --first-color: #182333;
+  --second-color: #0982f8;
+  --poppins-font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:767px) {
+
+  /* *************************************** */
+  /* head-section */
+  /* *************************************** */
+  .head-section {
+    font-size: 2.5rem;
+  }
+
+
+  /* *************************************** */
+  /* main-section */
+  /* *************************************** */
+
+  .main-section {
+    height: 94vh;
+
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .overlay {
+      .text {
+        text-align: center;
+        margin-bottom: 3rem;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+
+      img {
+        width: 40% !important;
+      }
+    }
+  }
+
+  /* *************************************** */
+  /* about */
+  /* *************************************** */
+
+  .about {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    img {
+      width: 100% !important;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  /* *************************************** */
+  /* mission */
+  /* *************************************** */
+
+  .mission {
+    p {
+      font-size: 1.1rem !important;
+    }
+  }
+
+
+  /* *************************************** */
+  /* vision */
+  /* *************************************** */
+
+  .vision {
+    p {
+      font-size: 1.1rem !important;
+    }
+  }
+
+
+  /* *************************************** */
+  /* services */
+  /* *************************************** */
+
+  .services {
+    height: auto;
+
+    .container {
+      position: relative;
+
+      .box {
+        width: auto;
+      }
+    }
+  }
+
+
+  /* *************************************** */
+  /* choose */
+  /* *************************************** */
+
+  .choose {
+    .row {
+      row-gap: 2rem;
+      margin-top: 3rem;
+    }
+  }
+
+  /* *************************************** */
+  /* projects */
+  /* *************************************** */
+
+  .projects {
+    .head-section {
+      margin-left: 20px !important;
+    }
+
+    .text-end {
+      text-align: center !important;
+    }
+  }
+
+  /* *************************************** */
+  /* footer */
+  /* *************************************** */
+
+  .footer {
+    .row {
+      width: 100%;
+      row-gap: 3rem;
+    }
+  }
+}
